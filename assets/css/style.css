@@ -10372,7 +10372,7 @@ body {
 		transition: opacity .2s ease-in, transform .4s cubic-bezier(.445, .05, .55, .95)
 	}
 	body.user_agent__is_not_ie.global__interactive__item__waypionts .js__content p, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__heading, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__item {
-		opacity: 0;
+		opacity: 1;
 		-webkit-transform: translate(0, 1.75vw);
 		-moz-transform: translate(0, 1.75vw);
 		-o-transform: translate(0, 1.75vw);
@@ -15087,7 +15087,7 @@ body {
 		transition: opacity .2s ease-in, transform .4s cubic-bezier(.445, .05, .55, .95)
 	}
 	body.user_agent__is_not_ie.global__interactive__item__waypionts .js__content p, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__heading, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__item {
-		opacity: 0;
+		opacity: 1;
 		-webkit-transform: translate(0, 2.285vw);
 		-moz-transform: translate(0, 2.285vw);
 		-o-transform: translate(0, 2.285vw);
@@ -19799,7 +19799,7 @@ body {
 		transition: opacity .2s ease-in, transform .4s cubic-bezier(.445, .05, .55, .95)
 	}
 	body.user_agent__is_not_ie.global__interactive__item__waypionts .js__content p, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__heading, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__item {
-		opacity: 0;
+		opacity: 1;
 		-webkit-transform: translate(0, 2.461vw);
 		-moz-transform: translate(0, 2.461vw);
 		-o-transform: translate(0, 2.461vw);
@@ -24534,7 +24534,7 @@ body {
 		transition: opacity .2s ease-in, transform .4s cubic-bezier(.445, .05, .55, .95)
 	}
 	body.user_agent__is_not_ie.global__interactive__item__waypionts .js__content p, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__heading, body.user_agent__is_not_ie.global__interactive__item__waypionts .js__item {
-		opacity: 0;
+		opacity: 1;
 		-webkit-transform: translate(0, 4.8vw);
 		-moz-transform: translate(0, 4.8vw);
 		-o-transform: translate(0, 4.8vw);
