@@ -5,14 +5,14 @@
  	 $lname = $_POST["lname"];
  	 $emailid  = $_POST["email"];
 	 $pnumber= $_POST["phone"];
-	 $contoption  = $_POST["cont-option"];
+	 $contoption  = $_POST["cont_option"];
 	 $mbox= $_POST["message_box"];
 	 
 
 	 
 	 // $location = $_POST["location"];
 
-	 $subject ="CallBack Request by " . $fname;
+	 $subject ="Contact Request by " . $fname;
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 	$headers .= 'From: '. $fname .' <' . $emailid .">" ."\r\n";
