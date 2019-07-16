@@ -270,6 +270,15 @@
          </div>
       </div>
    </section>
+   <style type="text/css">
+		                            #successmessage2{
+		                              display: none;
+		                              text-align: center;
+		                              color: #040404;
+		                              font-size: 1.225rem;
+		                          }
+		                            }
+		                          </style>
    <section id="section__contact__form" class="bgc__white pn1 js__section2 rel z1">
       <div class="sw">
          <div class="cw rel z2 clear">
@@ -290,31 +299,34 @@
                      <div class="poxy a12b12c45">
                         <div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_1" style="">
                            <div id="gf_1" class="gform_anchor" tabindex="-1"></div>
-                           <form method="post" enctype="multipart/form-data" target="gform_ajax_frame_1" id="gform_1" action="https://penastationnext.com/contact/#gf_1">
+                           <form id="contact-us-form" method="post" enctype="multipart/form-data" target="gform_ajax_frame_1" id="gform_1" action="https://penastationnext.com/contact/#gf_1">
                               <div class="gform_body">
                                  <ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below">
                                     <li id="field_1_1" class="gfield poxy a14b14c25d45 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
                                        <label class="gfield_label" for="input_1_1">First Name<span class="gfield_required">*</span></label>
-                                       <div class="ginput_container ginput_container_text"><input name="input_1" id="input_1_1" type="text" value="" class="medium" tabindex="1" placeholder="First Name*" aria-required="true" aria-invalid="false"></div>
+                                       <div class="ginput_container ginput_container_text">
+                                       	<input name="fname" id="fname" type="text" value="" class="medium" tabindex="1" placeholder="First Name*" aria-required="true" aria-invalid="false"></div>
                                     </li>
                                     <li id="field_1_2" class="gfield poxy a14b14c25d45 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
                                        <label class="gfield_label" for="input_1_2">Last Name*<span class="gfield_required">*</span></label>
-                                       <div class="ginput_container ginput_container_text"><input name="input_2" id="input_1_2" type="text" value="" class="medium" tabindex="2" placeholder="Last Name*" aria-required="true" aria-invalid="false"></div>
+                                       <div class="ginput_container ginput_container_text">
+                                       	<input name="lname" id="lname" type="text" value="" class="medium" tabindex="2" placeholder="Last Name*" aria-required="true" aria-invalid="false"></div>
                                     </li>
                                     <li id="field_1_3" class="gfield poxy a14b14c25d45 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
                                        <label class="gfield_label" for="input_1_3">Email<span class="gfield_required">*</span></label>
                                        <div class="ginput_container ginput_container_email">
-                                          <input name="input_3" id="input_1_3" type="text" value="" class="medium" tabindex="3" placeholder="Email*" aria-required="true" aria-invalid="false">
+                                          <input name="email" id="email" type="text" value="" class="medium" tabindex="3" placeholder="Email*" aria-required="true" aria-invalid="false">
                                        </div>
                                     </li>
                                     <li id="field_1_4" class="gfield poxy a14b14c25d45 field_sublabel_below field_description_below gfield_visibility_visible">
                                        <label class="gfield_label" for="input_1_4">Phone</label>
-                                       <div class="ginput_container ginput_container_phone"><input name="input_4" id="input_1_4" type="text" value="" class="medium" tabindex="4" placeholder="Phone" aria-invalid="false"></div>
+                                       <div class="ginput_container ginput_container_phone">
+                                       	<input name="phone" id="phone" type="text" value="" class="medium" tabindex="4" placeholder="Phone" aria-invalid="false"></div>
                                     </li>
                                     <li id="field_1_5" class="gfield poxy a12b12c11d45 bos__blue gfield__type__select gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
                                        <label class="gfield_label" for="input_1_5">Select Contact Option Below<span class="gfield_required">*</span></label>
                                        <div class="ginput_container ginput_container_select">
-                                          <select name="input_5" id="input_1_5" class="medium gfield_select" tabindex="5" aria-required="true" aria-invalid="false">
+                                          <select name="cont_option" id="cont_option" class="medium gfield_select" tabindex="5" aria-required="true" aria-invalid="false">
                                              <option value="" selected="selected" class="gf_placeholder">Select Contact Option Below*</option>
                                              <option value="Development Opportunities Toward Tower Road">Development Opportunities Toward Tower Road</option>
                                              <option value="Development Opportunities Toward The Rail Station">Development Opportunities Toward The Rail Station</option>
@@ -323,7 +335,7 @@
                                           </select>
                                        </div>
                                     </li>
-                                    <li id="field_1_7" class="gfield poxy a12b12c11d45 gfield__type__radio field_sublabel_below field_description_below gfield_visibility_hidden" style="display: none;">
+                                    <!-- <li id="field_1_7" class="gfield poxy a12b12c11d45 gfield__type__radio field_sublabel_below field_description_below gfield_visibility_hidden" style="display: none;">
                                        <label class="gfield_label">Please select area of interest:</label>
                                        <div class="ginput_container ginput_container_radio">
                                           <ul class="gfield_radio" id="input_1_7">
@@ -335,10 +347,11 @@
                                              <li class="gchoice_1_7_5"><input name="input_7" type="radio" value="Hospitality and Conference" id="choice_1_7_5" tabindex="11" disabled=""><label for="choice_1_7_5" id="label_1_7_5">Hospitality and Conference</label></li>
                                           </ul>
                                        </div>
-                                    </li>
+                                    </li> -->
                                     <li id="field_1_6" class="gfield gfield__type__textarea poxy rel a12b12c11d45 ms1 mn2 field_sublabel_below field_description_below gfield_visibility_visible">
                                        <label class="gfield_label" for="input_1_6">Message</label>
-                                       <div class="ginput_container ginput_container_textarea"><textarea name="input_6" id="input_1_6" class="textarea medium" tabindex="12" aria-invalid="false" rows="10" cols="50"></textarea></div>
+                                       <div class="ginput_container ginput_container_textarea">
+                                       	<textarea name="message_box" id="message_box" class="textarea medium" tabindex="12" aria-invalid="false" rows="10" cols="50"></textarea></div>
                                     </li>
                                     <!-- <li id="field_1_8" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
                                        <label class="gfield_label" for="input_1_8">CAPTCHA</label>
@@ -349,10 +362,18 @@
                                           </div>
                                        </div>
                                     </li> -->
+
+                                    <li  >
+                                       <label  id="successmessage2">Thank you for your enquiry</label>
+                                       
+                                    </li>
                                  </ul>
                               </div>
+
+
+
                               <div class="gform_footer top_label">
-                                 <button id="gform_submit_button_1" class="gform_button part__button__3 poxy mn1 pe1 ps2 txw__bold rel">
+                                 <button id="submit_button_1" class="gform_button part__button__3 poxy mn1 pe1 ps2 txw__bold rel">
                                     <span class="txc__blue t21 rel ps4 txtu nowrap">
                                        Submit
                                        <div class="bgc__blue part__button__3__line bdaxy xp100"> <span class="txc__blue t21 rel ps4 txtu nowrap"></span> </div>
@@ -363,15 +384,53 @@
                                        <div class="bgc__blue part__button__3__c3 cb caxy a122a_122b120b_120c114c_114d17d_17 txc__white t5 z10 br100"> <i class="caxy material-icons">keyboard_arrow_right</i> </div>
                                     </div>
                                  </button>
-                                 <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=&amp;description=&amp;tabindex=1">
+                                 <!-- <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=&amp;description=&amp;tabindex=1">
                                  <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
                                  <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
                                  <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
                                  <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjYwMDcwYTk0ZTkwZjY3OGI0MmI2MTZlN2E2MzkzMWZhIl0=">
                                  <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
                                  <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
-                                 <input type="hidden" name="gform_field_values" value="">
+                                 <input type="hidden" name="gform_field_values" value=""> -->
                               </div>
+
+                              <script>
+								$(document).ready(function() { 
+								    $('#submit_button_1').click(function(event) {
+								      event.preventDefault();
+								      var formdata = $('#contact-us-form').serialize();
+
+								        if ($('#fname').val() != "" && $('#lname').val() != "" && $('#email').val() != "" && $('#phone').val() != "" && $('#cont-option').val() != "" && $('#message_box').val() != "" ) {
+								            
+								             $.ajax({
+								                              url:'requestaapp2.php',
+								                              type:'POST',
+								                              data:formdata,
+								                              success:function(result){
+								                                  
+								                                  $("#successmessage2").css("display", "block");
+								                                  $("#successmessage2").html("Your enquiry has been sent successfully");
+								                                  $("#fname, #lname, #email, #phone, #cont-option, #message_box").val("");
+								                                  // $('#req_tnc').prop('checked',false);
+								                              }
+								                    });
+
+								        
+								    }
+								             else{
+								                    alert("All fields are mandatory");
+								                  }
+								    });
+								});
+
+								</script>
+
+
+
+
+
+
+
                            </form>
                         </div>
                         <!-- <iframe style="display:none;width:0px;height:0px;" src="./Contact Us _ Pena Station NEXT_files/saved_resource.html" name="gform_ajax_frame_1" id="gform_ajax_frame_1">This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
