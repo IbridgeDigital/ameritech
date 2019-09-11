@@ -3587,7 +3587,7 @@ body {
 		height: 15.825rem
 	}
 	[class*=a1m_16]:not([class^=_]), [class*=a_16]:not([class^=_]), [class^=_0_][class*=a_16]~* {
-		height: 12.895rem
+		height: 27.895vw;
 	}
 	[class*=a1m_17]:not([class^=_]), [class*=a_17]:not([class^=_]), [class^=_0_][class*=a_17]~* {
 		height: 10.803rem
